@@ -1,30 +1,52 @@
-<DOCTYPE hmtl>
-<html>
+<?php
+include('server.php')
+?>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title> STUDYWARS BAKERY </title>
-    <link href="/STUDYWARS/login.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+<title>Create Account</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assests/css/style.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-    <header>
-        <div class="container">
-            <img src="logo.png" alt="studywars-logo" width=300 height=300>
+<div class="signup-form" style="padding:30px;">
+    <form method="post" action="register.php">
+    <?php include('errors.php'); ?>
+		<h2>Register</h2>
+		<p class="hint-text">Create your account</p>
+        <div class="form-group">
+			<div class="row">
+				<div class="col"><input type="text" class="form-control" name="username" value="<?php echo $username; ?>" placeholder="Username" required="required"></div>
+			</div>        	
         </div>
-    </header>
-    <p><h1>StudyWars Bakery</h1></p>
-    <p>Welcome!!</p>
-    <p>Log in</p>
-
-    <form action="loginOperation.php" method="post" autocomplete="on" id="inputform">
-    First Name:<input type="text" name="firstname"><br><br>
-    Last Name:<input type="text" name="lastname"><br><br>
-    Email:<input type="text" name="email"><br><br>
-    Password:<input type="text" name="password"><br><br>
-    <button type="submit" name="register">Register</button>
-    <button type="reset" name="clear">Clear</button>
-    <p>
-      Already a member?<a href="login.php">Sign in</a>
-    </p>
-    </p>
-  </form>
+        <div class="form-group">
+        	<input type="email" class="form-control" name="email" value="<?php echo $email; ?>" placeholder="Email" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control" name="cpassword" placeholder="Confirm Password" required="required">
+        </div>       
+        <div class="form-group">
+			<label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a></label>
+		</div>
+		<div class="form-group">
+            <button type="submit" name="submit" class="btn btn-success btn-lg btn-block">Register Now</button>
+        </div>
+        <div class="text-center">Already have an account? <a href="login.php">Sign in</a></div>     
+    </form>
+	
+</div>
 </body>
 </html>
