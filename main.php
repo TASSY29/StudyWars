@@ -76,10 +76,10 @@ $db->close();
               <li><a href="#">About Us</a></li>
               <li class="drop-down"><a href="#">Team Name</a>
                 <ul>
-                  <li><a href="#">PRISSILLA TASSY</a></li>
-                  <li><a href="#">RASILAWATI</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="Assignment-67506.html">PRISSILLA TASSY</a></li>
+                  <li><a href="Rasilawati_e-Portfolio.html">RASILAWATI</a></li>
+                  <li><a href="FARHANAH AL-HANAN e portfolio.html">FARHANAH AL-HANAN</a></li>
+                  <li><a href="NURPUTRINAJIHAH_ePortfolio.html">NUR PUTRI NAJIHAH</a></li>
                   <li><a href="#">Deep Drop Down 5</a></li>
                 </ul>
               </li>

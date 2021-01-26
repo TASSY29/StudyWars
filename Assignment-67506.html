@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Assignment (67506)</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="mystyles.css">
+    <link rel="stylesheet" href="animation.js">
+  </head>
+  <body>
+    
+	<section id="about">
+        <div class="section-content">
+            <div class="container">
+                
+                    <div class="about-self">
+                        <div class="card bg-light text-black">
+                            <div class="row">
+                                <div class="col-sm-6"> 
+                                    <h3>About Me</h3>
+                                <img src="IMG20190920215758.jpg" alt="myself" width= "30%" height= "auto">
+                                <p class="lead">Name: PRISSILLA TASSY ANAK BINIT <br> Matric Number: 67506</p>
+                                <p>3rd year undergraduate University Malaysia Sarawak student.</p>
+                                <p>I'm mixed blood (Chinese and Iban) and I'm second born in the family.</p>
+                                <p>My passion biology and progamming but at same time I like music and dance.</p>
+                                <p>Motto: Always learn to be the best.</p>
+                                <br>
+                                <h5>Follow Me!</h5>
+                                <a href="https://www.facebook.com/Tassy991229/" class="facebook">Facebook ||</a>
+                                <a href="https://www.instagram.com/" class="instagram">Instagram</a>
+                                </div>
+                                
+                                <div class="col-sm-6">   
+                                <div id="cf" class="shadow">
+                                    <img class="bottom" src="IMG_20200522_210908_HDR.jpg" width="90%" height="auto">
+                                    <img class="top" src="IMG_20190626_124837_800.jpg" width="90%" height="auto">
+                                </div>   
+                                  </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+    </section>
+	
+	
+	 
+    
+    
+    <nav class="navbar navbar-dark bg-inverse navbar-full">
+        <a class="navbar-brand" href="#about">Tassy's E-Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#about"> ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#my-interset"> MY INTEREST</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#carousel-home"> SLIDESHOW</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#latest"> LATEST ACTIVITIES</a>
+                </li>
+            </ul>
+        </div>  
+    </nav>
+    
+    
+	 <section id="my-interset">
+        <div class="section-content">
+            <div class="container">
+                <h2>My Interest</h2>
+                <p>Main Interest : Dance</p>
+            
+                <div class="container"> <!-- Using grid system, card-group, card-block concept to do this part -->
+                    
+                                    <div class="row"> <!--grid-->
+                                        <div class="col-sm-4">
+                                        <div class="card bg-light text-black"> <!--card group-->
+                                        <h4 class="card-title">Dance</h4>
+                                        <h6 class="card-subtitle">Dance card subtitle</h6>
+                                    
+                                        <img src="20200306_185709.jpg" alt="Dance" class="center" width="30%" height="auto">
+                                   
+                                        <p class="class-text">3 kind of dance I done during my free time. Modern dance, Dance Fitness and Tambourine Dance.</p>
+                                        <button class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">
+                                            <a href="#my-interset"> Learn More</a></button>
+                                        </div>
+                                        </div>
+                                        
+                                        
+                                        <div class="col-sm-4">
+                                        <div class="card bg-secondary text-white">
+                                        <h4 class="card-title">Video Editting</h4>
+                                        <h6 class="card-subtitle">VE card subtitle</h6>
+                                
+                                        <img src="Screenshot (56).png" alt="VE" class="center" width="30%" height="auto">
+                                
+                                        <p class="class-text">Video Editting, activities that being done during my leisure time. Sometime make small income with it.</p>
+                                        <button class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">
+                                            <a href="#latest">Learn More</a></button>
+                                        </div>
+                                        </div>
+                                        
+                                    
+                                
+                                        <div class="col-sm-4">
+                                        <div class="card bg-dark text-white">
+                                        <h4 class="card-title">Cognitive Science</h4>
+                                        <h6 class="card-subtitle">CS card subtitle</h6>
+                                    
+                                        <img src="11000550_1551493435131548_2394121551025624091_n.jpg" alt="programming" class="center" width="30%" height="auto">
+                                    
+                                        <p class="class-text">A newest study in Malaysia and the first University that have this course is University Malaysia Sarawak. </p>
+                                        <button class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">
+                                            <a href="#carousel-home">Learn More</a></button>
+                                        </div>
+                                        </div>
+                                    
+                                    </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    
+        <div id="carousel-home" class="slide" data-ride="carousel">  <!-- Construct a carousel with at least 3 images auto-slide show, and with carousel-caption written. -->
+        
+            <ul class="carousel-indicator"> <!--Indicator-->
+                <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-home" data-slide-to="1"></li>
+                <li data-target="#carousel-home" data-slide-to="2"></li>
+            </ul>
+            <!--Slideshow-->
+            <div class="carousel-inner">  <!--Slideshow 1-->
+                <div class="carousel-item active"> 
+                    <img src="Screenshot (56).png" alt="Camera Woman" width="130%" height="500">
+                
+                        <div class="carousel-caption">
+                            <h3>Modern Dance</h3>
+                            <p>This picture indicate my first time joining modern dance competition.</p>
+                        </div>
+                </div>
+
+                <div class="carousel-item"> <!--Slideshow 2-->
+                    <img src="IMG-20201222-WA0055.jpg" alt="The Wet Web"  width="130%" height="500">
+                
+                        <div class="carousel-caption">
+                            <h3>Choreography</h3>
+                            <p>My first choreography that win the first place.</p>
+                        </div>
+                </div>
+
+                <div class="carousel-item">  <!--Slideshow 3-->
+                    <img src="IMG20180918110104.jpg" alt="Two hands heart"  width="130%" height="500">
+
+                        <div class="carousel-caption">
+                            <h3>Science Cognitive</h3>
+                            <p>The experience I never will forget.</p>
+                        </div>
+ 
+                </div>
+
+                <!--Prev and Next controls-->
+                <a class="carousel-control-prev" href="#carousel-home" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-home" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+            
+        </div>
+    
+
+    <section id="latest">
+        <div class="section-content">
+            <div class="container">
+                
+                <h3>Latest Activities Involved</h3>
+                <p class="lead">During Pandamic, it's hard to done outdoor activities. Here, I will share about my best experience during this COVID-19 Pandamic.</p>
+                
+                <hr>
+                
+                <div class="row"> <!-- Using grid system, card-columns, card-block concept to do this part -->
+                                <div class="col-sm-12">
+                                    <div class="card bg-light text-black">
+                                        <h4 class="card-title">Liaison Officer</h4>
+                                        <img class="card-img-top" src="IMG_20201004_130020.jpg" alt="woman camera" width="130%" height="500">
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        <h5 class="card-text">LO's Memory Card</h5>
+                            
+                            
+                                    <blockquote class="card-blockquote">
+                                        <p>I gain my first experience as Liaison Officer in Online Minggu Aluan Pelajar. The greatest memory I gain even it was hard to be handle since it was the very first UNIMAS First Year student greeting.</p>
+                                        <footer>
+                                            <small class="text-muted">
+                                            UNIVERSITY MALAYSIA SARAWAK FIRST ONLINE MAP
+                                            </small>
+                                        </footer>
+                                     </blockquote>
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div class="col-sm-12">
+                                    <div class="card bg-danger text-black">
+                                        <h4 class="card-title">First Experience Ever!</h4>
+                                        <img class="card-img-top" src="Screenshot (54).png" alt="Landscape" width="130%" height="500">
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        <h5 class="card-text">Online Competition</h5>
+
+                                    <blockquote class="card-blockquote">
+                                        <p>During Pandamic, a lots of competition have been done online. I don't lost my oppertunies by joining a dance challenge using Instagram Platform.</p>
+                                        <footer>
+                                        <small>
+                                        MANSAU DANCE CHALLENGE.
+                                        </small>
+                                        </footer>
+                                    </blockquote>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div class="card bg-success text-black">
+                                        <h4 class="card-title">Christmas Dance Choreography</h4>
+                                        <img class="card-img" src="IMG-20201222-WA0055.jpg" alt="computer" width="130%" height="500">
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        <h5 class="card-text">2 Task For One</h5>
+                            
+                                    <blockquote class="card-blockquote">
+                                        <p>Last Christmas, I was been pointed to be the choreographer. So, I have prepare 2 kind of performance which is a simple musical skit and children christmas dance performance. It take 2 week of training.</p>
+                                        <footer>
+                                        <small class="text-muted">
+                                        MUSICAL SKIT AND DANCE PERFORMANCE FOR A DAY.
+                                        </small>
+                                        </footer>
+                                    </blockquote>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12"> 
+                                    <div class="card bg-warning text-black">
+                                        <h4 class="card-title">Video Editting Service</h4>
+                                    <img class="card-img" src="Screenshot (55).png" alt="computer" width="130%" height="500">
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <h5 class="card-text">Impactful Video Montaj</h5>
+                                
+                                    <blockquote class="card-blockquote">
+                                        <p>I have made some small service by making a short video or video montaj. I don't really give price about it but the price is given by them volunteerly. </p>
+                                        <footer>
+                                        <small class="text-muted">
+                                        BEST EXPERIENCE GIVE BEST IMPACT IN LIVE.
+                                        </small>
+                                        </footer>
+                                    </blockquote>
+                                    </div>
+                                    
+                                </div>
+                                
+                            
+                        
+                        <hr>
+                        
+                        <div class="pagination">
+                            <a href="#about">&laquo;</a>
+                            <a href="#about">1</a>
+                            <a href="#my-interset" >2</a>
+                            <a href="#carousel-home">3</a>
+                            <a href="#latest" class="active">4</a>
+                            <a href="#latest">&raquo;</a>
+                          </div>  
+                        
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+<footer>
+    <div class="container">
+        <div class="row">
+
+                <h6>Contact Details</h6>
+                <br>
+                <p>Email: 67506@siswa.unimas.my H/p: 0128459367</p>
+                <br>
+                <ul class="list-unstyled">
+                    <li><a href="#about">About Me ||</a></li>
+                    <li><a href="#my-interset">My Interest ||</a></li>
+                    <li><a href="#carousel-home">Slideshow ||</a></li>
+                    <li><a href="#latest">Latest Activities Involved </a></li>
+                </ul>
+
+                <br>
+                <p>copyright 2020. My Assignment.</p>
+                <p>Code by 67506</p>
+  
+        </div>
+    </div>
+</footer>
+
+    
+    
+    
+    
+    
+</body>
+</html>
