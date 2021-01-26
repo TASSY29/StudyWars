@@ -30,7 +30,7 @@ CREATE TABLE `cart` (
 --
 
 INSERT INTO `cart` (`cartID`, `productID`, `qty`, `userID`) VALUES
-(25, 'C23', 1, 14),
+(25, 'C20', 1, 14),
 (26, 'C12', 2, 17),
 (27, 'C11', 3, 15);
 
@@ -88,25 +88,22 @@ INSERT INTO `product` (`ProID`, `ProName`, `proImages`, `ProType`, `Description`
 ('C04', 'CHIRSTMAS COOKIES','', 'COOKIES', 'CELEBRATE WINTER WITH SOME CHILLIN COOKIE. (MAY GIVE TO SANTA TOO)', '20.00', 22),
 ('C05', 'OREO CHUNK COOKIES','', 'COOKIES', 'OREO, EVERYONE FAVOURITE.. NOW IN COOKIES','8.00',12),
 ('C06', 'CHOCOLATE DIP CAKE','','CAKE', 'CELEBRATE YOUR DAY WITH SOME SOUR SWEET TREATS','45.00',3),
-('C07', ''),
-('C08', ),
-('C09', ),
-('C10', ),
-('C11', ),
-('C12', ),
-('C13', ),
-('C14', ),
-('C15', ),
-('C16', ),
-('C17', ),
-('C18', ),
-('C19', ),
-('C20', ),
-('C21', ),
-('C22', ),
-('C23', ),
-('C24', ),
-('C25', );
+('C07', 'FLUFFY JAPANESE CHEESE CAKE','','CAKE','JUGGLY JUGGLY LITTLE CAKE, MAKE YOU DANCE WHEN IT BREAK','25.00',5),
+('C08', 'CUTE COOKIES','','COOKIES','HAVE FUN SHARE SOME CUTE LITTLE COOKIES TO EVERYONE.','10.00',15),
+('C09', 'COCONUT PANDAN CENDOL CAKE','','CAKE','CENDOL... SPECIAL CURSIAN FOR EVERYONE.. TRY IT NOW','15.00',10),
+('C10', 'PANDAN CHIFFON CAKE','','CAKE','FLUFFY CAKE WITH SOME PANDAN SMELL','15.00',10),
+('C11', 'FRUIT CAKE','','CAKE','HAVE GREAT DAY WITH SOME FRUITY CAKE','15.00',12),
+('C12', 'MARASCHINO CHERRY CHOCOLATE CHIP','','COOKIES','PINKISH COOKIES WITH SWEET CHOCOLATE CHIP','10.00',14),
+('C13', 'MONSTER M&M COOKIES','','COOKIES','M&M.. EVERYONE FAV.. NOW IN COOKIES DISH','15.00',50),
+('C14', 'PEANUT COOKIES','','COOKIES','LEGENDARY COOKIES FOR EVERYONE','10.00',50),
+('C15', 'RED VELVET COOKIES','','COOKIES','REDDY LITTLE COOKIES','15.00',35),
+('C16', 'COCONUT PANDAN','','COOKIES','GREEN COOKIES WITH COCONUT PANDAN FLAVOR','10.00',30),
+('C17', 'VANILLA SUGAR COOKIES','','COOKIES','COOKIES WITH TEA? ANYONE? THIS IS THE PERFACT COMBINATION','15.00',30),
+('C18', 'BUTTER COOKIES','','COOKIES','BUTTER FLAVOR THAT WILL MAKE YOUR DAY','12.00',35),
+('C19', 'KISMIS OATMEAL COOKIES','','COOKIES','HEALTY STYLE COOKIE FOR SOMEONE WHO IS ON DIET','9.00',34),
+('C20', 'VANILLA CHEWY','','COOKIES','SWEET COOKIES WITH STRAWBERRY FILLINGS INSIDE','15.00',23),
+('C21', 'SUMMER FRUIT SANGRIA CAKE','','CAKE','CAKE WITH SOME SUMMER VIEWS THAT WILL WARM YOUR DAY','45.00',4),
+('C22', 'OATMEAL COOKIES','','COOKIES','A COOKIES THAT SERVE WITH HOT TEA FOR BREAKFAST','8.00',32),
 
 -- --------------------------------------------------------
 
@@ -130,11 +127,10 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`userId`, `fname`, `lname`, `email`, `uPassword`, `uLevel`) VALUES
 (1, 'JYTas', 'Tassy', 'tassy@gmail.com', '67506', 'admin'),
-(2, '', '', '', '', 'user'),
-(14, '', '', '', '', 'user'),
-(15, '', '', '', '', 'user'),
-(16, '', '', '', '', 'user'),
-(17, '', '', '', '', 'user');
+(2, 'Ras', 'Rasila', 'Rasila@gmail.com', '5678', 'user'),
+(14, 'Put', 'Putri', 'Put@gmail.com', '1234', 'user'),
+(15, 'Rin', 'Erin', 'Erin@gmail.com', '4567', 'user'),
+(16, 'Far', 'Farhanah', 'Farhanah@gmail.com', '8976', 'user'),
 
 -- --------------------------------------------------------
 
