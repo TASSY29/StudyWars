@@ -51,7 +51,7 @@ $db->close();
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="main.css" rel="stylesheet">
+  <link href="login.css" rel="stylesheet">
 </head>
 
 <body>
