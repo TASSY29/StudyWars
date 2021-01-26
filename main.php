@@ -66,26 +66,23 @@ $db->close();
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="main.php">Home</a></li>
-          <li><a href="#about">Product</a></li>
+          <li><a href="product.php">Product</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Cart</a></li>
+          <li><a href="cart.php">Cart</a></li>
           <li><a href="#team">Team</a></li>
-          <li><a href="#pricing">FAQ</a></li>
+          <li><a href="#pricing"></a></li>
           <li class="drop-down"><a href="">More</a>
             <ul>
-              <li><a href="#">About Us</a></li>
-              <li class="drop-down"><a href="#">Team Name</a>
+              <li><a href="#about">About Us</a></li>
+              <li class="drop-down"><a href="">Team member</a>
                 <ul>
                   <li><a href="Assignment-67506.html">PRISSILLA TASSY</a></li>
                   <li><a href="Rasilawati_e-Portfolio.html">RASILAWATI</a></li>
                   <li><a href="FARHANAH AL-HANAN e portfolio.html">FARHANAH AL-HANAN</a></li>
                   <li><a href="NURPUTRINAJIHAH_ePortfolio.html">NUR PUTRI NAJIHAH</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li><a href="Index.html">SABARINA</a></li>
                 </ul>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
           <li><a href="#contact">Contact</a></li>
@@ -517,10 +514,8 @@ $db->close();
                       <div class="member-img">
                         <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
                         <div class="social">
-                          <a href=""><i class="icofont-twitter"></i></a>
-                          <a href=""><i class="icofont-facebook"></i></a>
-                          <a href=""><i class="icofont-instagram"></i></a>
-                          <a href=""><i class="icofont-linkedin"></i></a>
+                          <a href="https://www.facebook.com/Tassy991229/"><i class="icofont-facebook"></i></a>
+                          <a href="https://www.instagram.com/jytas"><i class="icofont-instagram"></i></a>
                         </div>
                       </div>
                       <div class="member-info">
