@@ -1,6 +1,5 @@
 <?php
-$db= new mysqli('localhost','root','');
-  mysqli_select_db( $db, 'studywars' );
+$conn = new mysqli($host, $username, $password, $database);
   session_start();
         if(!isset($_SESSION['userId'])){
 

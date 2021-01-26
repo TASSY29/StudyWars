@@ -1,7 +1,7 @@
 <?php
 
 	try{
-		require_once 'connect.php';
+		require_once 'C:/xampp/htdocs/STUDYWARS/connect.php';
 			
 	}catch(Exception $e){
 		$error = $e->getMessage();

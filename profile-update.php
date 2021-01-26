@@ -1,6 +1,6 @@
 <?php
 	
-    include 'connect.php'; 
+    include 'C:/xampp/htdocs/STUDYWARS/connect.php'; 
 session_start();
 $inactive = 1800;
 if(isset($_SESSION['timeout']) ) {

@@ -1,9 +1,15 @@
 <?php
-$db=new mysqli('localhost','root','');
-mysqli_select_db($db,'studywars');
-if($db->connect_error){
-	$error = $db->connect_error;
-	}
+$host = "localhost";
+$username = "root";
+$password = "";
+$database = "studywars";
 
-$db->set_charset('utf8');
+// Create connection
+$conn = new mysqli($host, $username, $password, $database);
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
 ?>
