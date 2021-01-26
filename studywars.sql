@@ -17,6 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
+
 --
 -- Database: `studywars`
 --
@@ -26,12 +27,11 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `cart`
 --
-
-CREATE TABLE `cart` (
-  `cartID` int(11) NOT NULL,
+CREATE TABLE `cart` 
+( `orderID` int(11) NOT NULL,
+  `userID` int(11) DEFAULT NULL,
   `productID` char(5) COLLATE utf8_danish_ci DEFAULT NULL,
-  `qty` int(11) DEFAULT '1',
-  `userID` int(11) DEFAULT NULL
+  `qty` int(11) DEFAULT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_danish_ci;
 
 --
