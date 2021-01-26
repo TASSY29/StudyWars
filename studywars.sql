@@ -31,7 +31,7 @@ CREATE TABLE `cart` (
 
 INSERT INTO `cart` (`cartID`, `productID`, `qty`, `userID`) VALUES
 (25, 'C20', 1, 14),
-(26, 'C12', 2, 17),
+(26, 'C12', 2, 16),
 (27, 'C11', 3, 15);
 
 -- --------------------------------------------------------
@@ -58,7 +58,7 @@ CREATE TABLE `orders` (
   `orderID` int(11) NOT NULL,
   `userID` int(11) DEFAULT NULL,
   `productID` char(5) COLLATE utf8_danish_ci DEFAULT NULL,
-  `qty` int(11) DEFAULT NULL
+  `qty` int(11) DEFAULT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_danish_ci;
 
 -- --------------------------------------------------------
@@ -74,7 +74,7 @@ CREATE TABLE `product` (
   `ProType` varchar(30) DEFAULT NULL,
   `Description` varchar(255) DEFAULT NULL,
   `Price` decimal(5,2) DEFAULT NULL,
-  `qty` int(11) DEFAULT NULL
+  `qty` int(11) DEFAULT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
