@@ -12,22 +12,22 @@ session_start();
 <html>
 <head>
   <title>Cart</title>
-  <link href="cart.css" rel="stylesheet">
+  <link href="login.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
    <div class="container">
-    <img src="images/logo.jpeg" alt="ArtPhone Logo" width="130" height="130">
+   <img src="logo.png" alt="studywars-logo" width=300 height=300>
     
 
        <nav>
           <ul class="topnav">
              
-             <li><a href="#">Product</a></li>
-             <li><a href="#">Search</a></li>
-             <li><a href="#">Cart</a></li>
-			 <li><a href="#">Logout</a></li>
+             <li><a href="product.php">Product</a></li>
+             <li><a href="search.php">Search</a></li>
+             <li><a href="cart.php">Cart</a></li>
+			 <li><a href="logout.php">Logout</a></li>
              
           </ul>
       </nav>
