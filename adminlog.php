@@ -11,7 +11,7 @@
         </div>
     </header>
     <p><h1>StudyWars Bakery</h1></p>
-    <p>Welcome!!</p>
+    <p>Welcome Admin!!</p>
     <p>Log in</p>
 
     <form action="loginOperation.php" method="post" autocomplete="on" id="inputform">
@@ -20,10 +20,10 @@
     <button type="submit" name="login">Login</button>
     <button type="reset" name="clear">Clear</button>
     <p>
-      Not a member? Register now!<a href="register.php">Sign up</a>
+      Customer?<a href="login.php">Log In</a>
     </p>
     <p>
-      Admin? <a href="adminlog.php"> </a>
+      Not A member? <a href="register.php">Sign Up </a>
     </p>
   </form>
 </body>
